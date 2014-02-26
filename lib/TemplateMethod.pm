@@ -1,0 +1,3 @@
+package TemplateMethod;
+
+1;
