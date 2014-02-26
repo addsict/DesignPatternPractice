@@ -9,7 +9,7 @@ is @{$factory->{owners}}, 0;
 
 subtest 'inheritance' => sub {
     is @FactoryMethod::IDCardFactory::ISA, 1;
-    is @FactoryMethod::IDCardFactory::ISA[0], 'FactoryMethod::Factory';
+    is $FactoryMethod::IDCardFactory::ISA[0], 'FactoryMethod::Factory';
 };
 
 subtest 'create a card' => sub {
