@@ -1,0 +1,11 @@
+language: perl
+perl:
+  - "5.14"
+  - "5.16"
+script:
+  - cd iterator && perl Makefile.PL && cover -test
+notifications:
+  emails:
+    - addsict@gmail.com
+  on_success: always
+  on_failure: always
