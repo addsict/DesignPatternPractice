@@ -2,7 +2,7 @@ package FactoryMethod::IDCardFactory;
 
 use strict;
 use warnings;
-use base qw/FactoryMethod::Factory/;
+use parent qw/FactoryMethod::Factory/;
 use FactoryMethod::IDCard;
 
 sub new {

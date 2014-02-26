@@ -7,6 +7,11 @@ use FactoryMethod::IDCardFactory;
 my $factory = FactoryMethod::IDCardFactory->new;
 is @{$factory->{owners}}, 0;
 
+subtest 'inheritance' => sub {
+    is @FactoryMethod::IDCardFactory::ISA, 1;
+    is @FactoryMethod::IDCardFactory::ISA[0], 'FactoryMethod::Factory';
+};
+
 subtest 'create a card' => sub {
     my $idcard = $factory->create('yuuki');
     isa_ok $idcard, 'FactoryMethod::IDCard';

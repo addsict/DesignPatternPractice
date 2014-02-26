@@ -2,7 +2,7 @@ package TemplateMethod::StringDisplay;
 
 use strict;
 use warnings;
-use base qw/TemplateMethod::Display/;
+use parent qw/TemplateMethod::Display/;
 
 sub open {
     my $self = shift;
