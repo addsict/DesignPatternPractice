@@ -3,7 +3,7 @@ perl:
   - "5.14"
   - "5.16"
 script:
-  - perl Makefile.PL && cover -test
+  - prove -vr -Ilib t/
 notifications:
   emails:
     - addsict@gmail.com
