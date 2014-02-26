@@ -2,8 +2,11 @@ language: perl
 perl:
   - "5.14"
   - "5.16"
+before_install:
+  - cpanm Carton
+  - carton install
 script:
-  - prove -vr -Ilib t/
+  - carton exec -- prove -vr -Ilib t/
 notifications:
   emails:
     - addsict@gmail.com

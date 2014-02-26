@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Test::More;
+use Test::Output;
 
 use Adapter::PrintBanner;
 
@@ -18,6 +19,11 @@ subtest 'can print weak' => sub {
     is $output, '(Hello)';
 };
 
+stdout_is sub {
+    my $pb = Adapter::PrintBanner->new('Hello');
+    $pb->printWeak;
+}, '(Hello)', 'can print weak w/o fh';
+
 subtest 'can print strong' => sub {
     my $pb = Adapter::PrintBanner->new('Hello');
     my $output;
@@ -26,5 +32,10 @@ subtest 'can print strong' => sub {
     close $fh;
     is $output, '*Hello*';
 };
+
+stdout_is sub {
+    my $pb = Adapter::PrintBanner->new('Hello');
+    $pb->printStrong;
+}, '*Hello*', 'can print strong w/o fh';
 
 done_testing;

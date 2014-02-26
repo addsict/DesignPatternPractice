@@ -11,12 +11,20 @@ sub new {
 
 sub printWeak {
     my ($self, $fh) = @_;
-    print $fh $self->{banner}->get_message_with_paren;
+    if (defined $fh) {
+        print $fh $self->{banner}->get_message_with_paren;
+    } else {
+        print $self->{banner}->get_message_with_paren;
+    }
 }
 
 sub printStrong {
     my ($self, $fh) = @_;
-    print $fh $self->{banner}->get_message_with_aster;
+    if (defined $fh) {
+        print $fh $self->{banner}->get_message_with_aster;
+    } else {
+        print $self->{banner}->get_message_with_aster;
+    }
 }
 
 1;
