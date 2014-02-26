@@ -1,0 +1,3 @@
+package FactoryMethod;
+
+1;
