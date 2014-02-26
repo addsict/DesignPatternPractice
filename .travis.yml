@@ -3,7 +3,7 @@ perl:
   - "5.14"
   - "5.16"
 script:
-  - cd iterator && perl Makefile.PL && cover -test
+  - perl Makefile.PL && cover -test
 notifications:
   emails:
     - addsict@gmail.com

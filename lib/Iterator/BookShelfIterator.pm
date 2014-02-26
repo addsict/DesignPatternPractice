@@ -1,4 +1,4 @@
-package BookShelfIterator;
+package Iterator::BookShelfIterator;
 
 sub new {
     my ($class, $book_shelf) = @_;

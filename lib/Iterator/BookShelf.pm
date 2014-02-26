@@ -1,6 +1,6 @@
-package BookShelf;
+package Iterator::BookShelf;
 
-use BookShelfIterator;
+use Iterator::BookShelfIterator;
 
 sub new {
     my $class = shift;
@@ -26,7 +26,7 @@ sub get_length {
 
 sub iterator {
     my $self = shift;
-    BookShelfIterator->new($self);
+    Iterator::BookShelfIterator->new($self);
 }
 
 1;

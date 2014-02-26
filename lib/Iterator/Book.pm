@@ -1,4 +1,4 @@
-package Book;
+package Iterator::Book;
 
 use strict;
 use warnings;

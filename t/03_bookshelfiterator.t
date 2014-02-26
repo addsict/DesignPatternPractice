@@ -2,17 +2,17 @@ use strict;
 use warnings;
 use Test::More;
 
-use BookShelf;
+use Iterator::BookShelf;
 
 subtest 'can not iterate with 0 book' => sub {
-    my $bs = BookShelf->new;
+    my $bs = Iterator::BookShelf->new;
     my $iter = $bs->iterator;
 
     is $iter->has_next, undef;
 };
 
 subtest 'can iterate with 1 book' => sub {
-    my $bs = BookShelf->new;
+    my $bs = Iterator::BookShelf->new;
     $bs->append_book({});
 
     my $iter = $bs->iterator;
@@ -25,7 +25,7 @@ subtest 'can iterate with 1 book' => sub {
 };
 
 subtest 'can prev iterate with 1 book' => sub {
-    my $bs = BookShelf->new;
+    my $bs = Iterator::BookShelf->new;
     $bs->append_book({});
 
     my $iter = $bs->iterator;
