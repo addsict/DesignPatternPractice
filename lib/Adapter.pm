@@ -1,0 +1,3 @@
+package Adapter;
+
+1;

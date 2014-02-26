@@ -6,6 +6,7 @@ blib/
 inc/
 cover_db/
 Makefile
+Makefile.old
 META.yml
 MYMETA.json
 MYMETA.yml
