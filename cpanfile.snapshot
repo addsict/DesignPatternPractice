@@ -1,0 +1,199 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Capture-Tiny-0.24
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.24.tar.gz
+    provides:
+      Capture::Tiny 0.24
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      strict 0
+      warnings 0
+  Data-OptList-0.109
+    pathname: R/RJ/RJBS/Data-OptList-0.109.tar.gz
+    provides:
+      Data::OptList 0.109
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::Util 0
+      Params::Util 0
+      Sub::Install 0.921
+      strict 0
+      warnings 0
+  Devel-Cover-1.08
+    pathname: P/PJ/PJCJ/Devel-Cover-1.08.tar.gz
+    provides:
+      Devel::Cover 1.08
+      Devel::Cover::Annotation::Git 1.08
+      Devel::Cover::Annotation::Random 1.08
+      Devel::Cover::Annotation::Svk 1.08
+      Devel::Cover::Branch 1.08
+      Devel::Cover::Condition 1.08
+      Devel::Cover::Condition_and_2 1.08
+      Devel::Cover::Condition_and_3 1.08
+      Devel::Cover::Condition_or_2 1.08
+      Devel::Cover::Condition_or_3 1.08
+      Devel::Cover::Condition_xor_4 1.08
+      Devel::Cover::Criterion 1.08
+      Devel::Cover::DB 1.08
+      Devel::Cover::DB::Criterion 1.08
+      Devel::Cover::DB::Digests 1.08
+      Devel::Cover::DB::File 1.08
+      Devel::Cover::DB::IO 1.08
+      Devel::Cover::DB::IO::JSON 1.08
+      Devel::Cover::DB::IO::Storable 1.08
+      Devel::Cover::DB::Run 1.08
+      Devel::Cover::DB::Structure 1.08
+      Devel::Cover::Html_Common 1.08
+      Devel::Cover::Inc 1.08
+      Devel::Cover::Op 1.08
+      Devel::Cover::Pod 1.08
+      Devel::Cover::Report::Compilation 1.08
+      Devel::Cover::Report::Html 1.08
+      Devel::Cover::Report::Html_basic 1.08
+      Devel::Cover::Report::Html_basic::Template::Provider 1.08
+      Devel::Cover::Report::Html_minimal 1.08
+      Devel::Cover::Report::Html_subtle 1.08
+      Devel::Cover::Report::Html_subtle::Template::Provider 1.08
+      Devel::Cover::Report::Sort 1.08
+      Devel::Cover::Report::Text 1.08
+      Devel::Cover::Report::Text2 1.08
+      Devel::Cover::Report::Vim 1.08
+      Devel::Cover::Report::Vim::Template::Provider 1.08
+      Devel::Cover::Statement 1.08
+      Devel::Cover::Subroutine 1.08
+      Devel::Cover::Test 1.08
+      Devel::Cover::Time 1.08
+      Devel::Cover::Truth_Table 1.08
+      Devel::Cover::Truth_Table::Row 1.08
+      Devel::Cover::Util 1.08
+      Devel::Cover::Web 1.08
+    requirements:
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      Storable 0
+      Test::More 0
+      Test::Warn 0
+  File-Slurp-Tiny-0.003
+    pathname: L/LE/LEONT/File-Slurp-Tiny-0.003.tar.gz
+    provides:
+      File::Slurp::Tiny 0.003
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      File::Spec::Functions 0
+      FileHandle 0
+      strict 0
+      warnings 0
+  Params-Util-1.07
+    pathname: A/AD/ADAMK/Params-Util-1.07.tar.gz
+    provides:
+      Params::Util 1.07
+    requirements:
+      ExtUtils::CBuilder 0.27
+      ExtUtils::MakeMaker 6.52
+      File::Spec 0.80
+      Scalar::Util 1.18
+      Test::More 0.42
+      perl 5.00503
+  Sub-Exporter-0.987
+    pathname: R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+    provides:
+      Sub::Exporter 0.987
+      Sub::Exporter::Util 0.987
+      Test::SubExporter::DashSetup undef
+      Test::SubExporter::Faux undef
+      Test::SubExporter::GroupGen undef
+      Test::SubExporter::GroupGenSubclass undef
+      Test::SubExporter::ObjGen undef
+      Test::SubExporter::ObjGen::Obj undef
+      Test::SubExporter::s_e undef
+    requirements:
+      Carp 0
+      Data::OptList 0.100
+      ExtUtils::MakeMaker 6.30
+      Params::Util 0.14
+      Sub::Install 0.92
+      strict 0
+      warnings 0
+  Sub-Install-0.927
+    pathname: R/RJ/RJBS/Sub-Install-0.927.tar.gz
+    provides:
+      Sub::Install 0.927
+    requirements:
+      B 0
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Scalar::Util 0
+      strict 0
+      warnings 0
+  Sub-Uplevel-0.24
+    pathname: D/DA/DAGOLDEN/Sub-Uplevel-0.24.tar.gz
+    provides:
+      Sub::Uplevel 0.24
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Test::More 0
+      constant 0
+      strict 0
+      warnings 0
+  Test-Output-1.03
+    pathname: B/BD/BDFOY/Test-Output-1.03.tar.gz
+    provides:
+      Test::Output 1.03
+    requirements:
+      Capture::Tiny 0.17
+      ExtUtils::MakeMaker 0
+      File::Temp 0.17
+      Sub::Exporter 0
+      Test::More 0
+      Test::Tester 0.107
+      perl 5.006
+  Test-Tester-0.109
+    pathname: F/FD/FDALY/Test-Tester-0.109.tar.gz
+    provides:
+      Test::Tester 0.109
+      Test::Tester::Capture undef
+      Test::Tester::CaptureRunner undef
+      Test::Tester::Delegate undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Builder 0
+  Test-Warn-0.24
+    pathname: C/CH/CHORNY/Test-Warn-0.24.tar.gz
+    provides:
+      Test::Warn 0.24
+      Test::Warn::Categorization 0.24
+      Test::Warn::DAG_Node_Tree 0.24
+    requirements:
+      Carp 1.22
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Sub::Uplevel 0.12
+      Test::Builder 0.13
+      Test::Builder::Tester 1.02
+      Test::More 0
+      Tree::DAG_Node 1.02
+      perl 5.006
+  Tree-DAG_Node-1.22
+    pathname: R/RS/RSAVAGE/Tree-DAG_Node-1.22.tgz
+    provides:
+      Tree::DAG_Node 1.22
+    requirements:
+      File::Slurp::Tiny 0.003
+      File::Spec 3.4
+      File::Temp 0.19
+      Module::Build 0.38
+      Test::More 0.98
+      strict 0
+      warnings 0
